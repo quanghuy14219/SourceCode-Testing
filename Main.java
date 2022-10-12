@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     static String catAndMouse(int x, int y, int z) {
-        if(x-z == y-z) {
+        int dA = x - z;
+        int dB = y - z;
+        if(dA == dB) {
             return "Mouse C";
         }
-        else if(x-z < y-z) {
+        else if(dA < dB) {
             return "Cat A";
         }
         return "Cat B";
