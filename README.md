@@ -7,18 +7,17 @@
     + If both cats reach the mouse at the same time, print "Mouse C" as the two cats fight and mouse escapes.
 
 - Function Description - catAndMouse has the following parameter(s):
-+ int x: Cat A's position
-+ int y: Cat B's position
-+ int z: Mouse C's position
+  + int x: Cat A's position
+  + int y: Cat B's position
+  + int z: Mouse C's position
 - Returns
-+ string: Either 'Cat A', 'Cat B', or 'Mouse C'
-- Constraints
-1 <= x , y, z <= 100
+  + string: Either 'Cat A', 'Cat B', or 'Mouse C'
+- Constraints: 1 <= x , y, z <= 100
 - Example
   + Input: x = 1, y = 2, z = 3
   + Expected output: Cat B
   ![image](https://user-images.githubusercontent.com/80802239/195395488-88eb1e0a-3c86-4bdf-93c0-b0e3a3cf710c.png)
-  + x = 1, y = 3, z = 2
+  + Input: x = 1, y = 3, z = 2
   + Expected output: Mouse C
   ![image](https://user-images.githubusercontent.com/80802239/195395643-cc0946b0-dda7-4477-a1b3-c294d0d8be84.png)
 
